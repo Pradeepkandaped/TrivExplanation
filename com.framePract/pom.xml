@@ -16,7 +16,9 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.5.3</version>
            <configuration>
+             <suitXmlFiles>
               <suiteXmlFile>testngOrange.xml</suiteXmlFile>
+             </suitXmlFiles>
            </configuration>
         </plugin>
       </plugins>
