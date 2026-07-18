@@ -69,17 +69,7 @@ public class BaseClass {
 					 e.printStackTrace();
 				 }
 			 }
-			 else if(BROWSER.equalsIgnoreCase("edge")) {
-				 try {
-			        Reporter.log("Open edge browser in Locally", true);
-			        System.setProperty("webdriver.edge.driver", "C:\\Users\\Pradeep\\Desktop\\Server\\Node2\\msedgedriver.exe");
-			        driver = new EdgeDriver();
-			        DriverManager.setDriver(driver);
-			      }
-				 catch(Exception e) {
-					 e.printStackTrace();
-				 }
-			 }
+			 
 				 
 			 else if(BROWSER.equalsIgnoreCase("firefox")){
 				   try {
@@ -110,22 +100,7 @@ public class BaseClass {
 				   Reporter.log("Open firefox browser in Locally", true);
 				   driver= new FirefoxDriver();
 				   DriverManager.setDriver(driver);
-			   }
-			 
-			   else if(BROWSER.equalsIgnoreCase("edge")) {
-					 try {
-				        Reporter.log("Open edge browser in Locally", true);
-				        System.setProperty("webdriver.edge.driver", "C:\\Users\\Pradeep\\Desktop\\Server\\Node2\\msedgedriver.exe");
-				        driver = new EdgeDriver();
-				        DriverManager.setDriver(driver);
-				      }
-					 catch(Exception e) {
-						 e.printStackTrace();
-					 }
-				 }
-			 
-			 
-			 
+			   }	 
 		 
 	}
 	
