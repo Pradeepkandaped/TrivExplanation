@@ -37,6 +37,7 @@ public class ExtentReportManager extends BaseClass implements ITestListener {
 	
 	
 	
+	
 	public void onStart(ITestContext context) {
 		
 		reportPath=("./"+PropertiesClass.getProperty(report_PathSet,"PATH"));

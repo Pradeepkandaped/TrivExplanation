@@ -9,17 +9,65 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">TestOrangehrm</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">36,924</td><td></td><td></td></tr>
+<tr><td><a href="#t0">TestOrangehrm</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">30,583</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestOrangehrm &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">scripts.OrangehrmLogin</td><td><a href="#m0">loginScript</a></td><td rowspan="8">1753164902653</td><td rowspan="8">3453</td></tr><tr class="passedeven"><td><a href="#m1">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m2">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m3">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m4">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m5">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m6">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m7">loginScript</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestOrangehrm &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">scripts.OrangehrmLogin</td><td><a href="#m0">loginScript</a></td><td rowspan="2">1784374868672</td><td rowspan="2">72</td></tr><tr class="failedeven"><td><a href="#m1">loginScript</a></td></tr><tr><th colspan="4">TestOrangehrm &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">scripts.OrangehrmLogin</td><td><a href="#m2">loginScript</a></td><td rowspan="6">1784374865247</td><td rowspan="6">3423</td></tr><tr class="passedeven"><td><a href="#m3">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m4">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m5">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m6">loginScript</a></td></tr><tr class="passedeven"><td><a href="#m7">loginScript</a></td></tr></tbody>
 </table>
-<h2>TestOrangehrm</h2><h3 id="m0">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>7</td><td>TRUE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>Pradeep</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>8</td><td>123.34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>4</td><td>Kamal</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>6</td><td>6</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestOrangehrm</h2><h3 id="m0">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>7</td><td>TRUE</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c9f5cb6df8be58b0b5338c3a460fb888, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 2172, ms:edgeOptions: {debuggerAddress: localhost:57022}, msedge: {msedgedriverVersion: 148.0.3967.137 (6ebc4f038ba..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.218:4444/se..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f5cb6df8be58b0b5338c3a460fb888
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+	at objectRepository.OrangehrmLoginPage.enterUsername(OrangehrmLoginPage.java:31)
+	at scripts.OrangehrmLogin.loginScript(OrangehrmLogin.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>8</td><td>123.34</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c9f5cb6df8be58b0b5338c3a460fb888, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 2172, ms:edgeOptions: {debuggerAddress: localhost:57022}, msedge: {msedgedriverVersion: 148.0.3967.137 (6ebc4f038ba..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.218:4444/se..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f5cb6df8be58b0b5338c3a460fb888
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+	at objectRepository.OrangehrmLoginPage.enterUsername(OrangehrmLoginPage.java:31)
+	at scripts.OrangehrmLogin.loginScript(OrangehrmLogin.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>6</td><td>6</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3</td><td>Prakash</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>5</td><td>Vinod</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>2</td><td>Suresh</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>5</td><td>Vinod</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3</td><td>Prakash</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>4</td><td>Kamal</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">scripts.OrangehrmLogin#loginScript</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>Pradeep</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

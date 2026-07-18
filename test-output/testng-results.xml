@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Read data from :./qa.properties]]>
     </line>
-    <line>
-      <![CDATA[Open chrome browser in Locally]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-07-22T11:44:33 IST" name="Suite" finished-at="2025-07-22T11:45:09 IST" duration-ms="36924">
+  <suite started-at="2026-07-18T17:10:38 IST" name="Suite" finished-at="2026-07-18T17:11:09 IST" duration-ms="30583">
     <groups>
     </groups>
-    <test started-at="2025-07-22T11:44:33 IST" name="TestOrangehrm" finished-at="2025-07-22T11:45:09 IST" duration-ms="36924">
+    <test started-at="2026-07-18T17:10:38 IST" name="TestOrangehrm" finished-at="2026-07-18T17:11:09 IST" duration-ms="30583">
       <class name="scripts.OrangehrmLogin">
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:44:33 IST" name="preCondition" finished-at="2025-07-22T11:44:40 IST" duration-ms="6839" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:10:38 IST" name="preCondition" finished-at="2026-07-18T17:10:46 IST" duration-ms="7774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,12 +22,9 @@
             <line>
               <![CDATA[Read data from :./qa.properties]]>
             </line>
-            <line>
-              <![CDATA[Open chrome browser in Locally]]>
-            </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:44:40 IST" name="loginScript" data-provider="getData" finished-at="2025-07-22T11:44:45 IST" duration-ms="4463" status="PASS">
+        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:10:48 IST" name="loginScript" data-provider="getData" finished-at="2026-07-18T17:10:51 IST" duration-ms="3544" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginScript -->
-        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:44:45 IST" name="loginScript" data-provider="getData" finished-at="2025-07-22T11:44:48 IST" duration-ms="3459" status="PASS">
+        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:10:51 IST" name="loginScript" data-provider="getData" finished-at="2026-07-18T17:10:55 IST" duration-ms="3487" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginScript -->
-        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:44:48 IST" name="loginScript" data-provider="getData" finished-at="2025-07-22T11:44:52 IST" duration-ms="3442" status="PASS">
+        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:10:55 IST" name="loginScript" data-provider="getData" finished-at="2026-07-18T17:10:58 IST" duration-ms="3394" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginScript -->
-        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:44:52 IST" name="loginScript" data-provider="getData" finished-at="2025-07-22T11:44:55 IST" duration-ms="3453" status="PASS">
+        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:10:58 IST" name="loginScript" data-provider="getData" finished-at="2026-07-18T17:11:01 IST" duration-ms="3379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +88,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginScript -->
-        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:44:55 IST" name="loginScript" data-provider="getData" finished-at="2025-07-22T11:44:59 IST" duration-ms="3445" status="PASS">
+        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:11:01 IST" name="loginScript" data-provider="getData" finished-at="2026-07-18T17:11:05 IST" duration-ms="3375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginScript -->
-        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:44:59 IST" name="loginScript" data-provider="getData" finished-at="2025-07-22T11:45:02 IST" duration-ms="3379" status="PASS">
+        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:11:05 IST" name="loginScript" data-provider="getData" finished-at="2026-07-18T17:11:08 IST" duration-ms="3423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginScript -->
-        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:45:02 IST" name="loginScript" data-provider="getData" finished-at="2025-07-22T11:45:06 IST" duration-ms="3453" status="PASS">
+        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:11:08 IST" name="loginScript" data-provider="getData" finished-at="2026-07-18T17:11:08 IST" duration-ms="72" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -139,10 +133,83 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c9f5cb6df8be58b0b5338c3a460fb888, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 2172, ms:edgeOptions: {debuggerAddress: localhost:57022}, msedge: {msedgedriverVersion: 148.0.3967.137 (6ebc4f038ba..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.218:4444/se..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f5cb6df8be58b0b5338c3a460fb888]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c9f5cb6df8be58b0b5338c3a460fb888, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 2172, ms:edgeOptions: {debuggerAddress: localhost:57022}, msedge: {msedgedriverVersion: 148.0.3967.137 (6ebc4f038ba..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.218:4444/se..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f5cb6df8be58b0b5338c3a460fb888
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+at objectRepository.OrangehrmLoginPage.enterUsername(OrangehrmLoginPage.java:31)
+at scripts.OrangehrmLogin.loginScript(OrangehrmLogin.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginScript -->
-        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:45:06 IST" name="loginScript" data-provider="getData" finished-at="2025-07-22T11:45:09 IST" duration-ms="3369" status="PASS">
+        <test-method signature="loginScript(java.lang.String,java.lang.String)[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:11:08 IST" name="loginScript" data-provider="getData" finished-at="2026-07-18T17:11:08 IST" duration-ms="14" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -155,10 +222,79 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c9f5cb6df8be58b0b5338c3a460fb888, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 2172, ms:edgeOptions: {debuggerAddress: localhost:57022}, msedge: {msedgedriverVersion: 148.0.3967.137 (6ebc4f038ba..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.218:4444/se..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f5cb6df8be58b0b5338c3a460fb888]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c9f5cb6df8be58b0b5338c3a460fb888, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 2172, ms:edgeOptions: {debuggerAddress: localhost:57022}, msedge: {msedgedriverVersion: 148.0.3967.137 (6ebc4f038ba..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.218:4444/se..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f5cb6df8be58b0b5338c3a460fb888
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+at objectRepository.OrangehrmLoginPage.enterUsername(OrangehrmLoginPage.java:31)
+at scripts.OrangehrmLogin.loginScript(OrangehrmLogin.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginScript -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:scripts.OrangehrmLogin@2dc54ad4]" started-at="2025-07-22T11:45:09 IST" name="postCondition" finished-at="2025-07-22T11:45:09 IST" duration-ms="469" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:scripts.OrangehrmLogin@2d52216b]" started-at="2026-07-18T17:11:08 IST" name="postCondition" finished-at="2026-07-18T17:11:09 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->

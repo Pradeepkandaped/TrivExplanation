@@ -5,9 +5,9 @@
     <classes>
       <class name="scripts.OrangehrmLogin">
         <methods>
-          <include name="log"/>
           <include name="preCondition"/>
           <include name="postCondition"/>
+          <include name="loginScript" invocation-numbers="5 6 7"/>
         </methods>
       </class> <!-- scripts.OrangehrmLogin -->
     </classes>
