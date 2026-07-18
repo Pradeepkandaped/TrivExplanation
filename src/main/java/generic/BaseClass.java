@@ -49,7 +49,8 @@ public class BaseClass {
 	     excelPath = ("./"+PropertiesClass.getProperty(xml_Path,"Excel"));
 	     
 	     //System.out.println("qa.properties path: " + PropertiesClass.getProperty(xml_Path, APP));
-	     System.out.println("Browser from properties: " + BROWSER);
+	      BROWSER = System.getProperty("BROWSER", PropertiesClass.getProperty(xml_Path, "BROWSER"));
+;
 
 		 
 		 if(GRID.equals("yes")) {
