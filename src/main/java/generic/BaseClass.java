@@ -1,5 +1,4 @@
 package generic;
-
 import java.net.URI;
 import java.time.Duration;
 
@@ -8,11 +7,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
@@ -26,6 +28,7 @@ public class BaseClass {
 	public String excelPath;
 	
 	public final String pptFiles="config.properties";
+	//public final String addPath="com.framePract/";
 	@Parameters({"env"})
 	@BeforeClass
 	public  void preCondition(@Optional(pptFiles) String env) {
@@ -45,7 +48,9 @@ public class BaseClass {
 		 int  ETO = Integer.parseInt(PropertiesClass.getProperty(xml_Path, "ETO"));
 	     excelPath = ("./"+PropertiesClass.getProperty(xml_Path,"Excel"));
 	     
-	     
+	     //System.out.println("qa.properties path: " + PropertiesClass.getProperty(xml_Path, APP));
+	     System.out.println("Browser from properties: " + BROWSER);
+
 		 
 		 if(GRID.equals("yes")) {
 			 
@@ -63,9 +68,10 @@ public class BaseClass {
 					 e.printStackTrace();
 				 }
 			 }
-				 else if(BROWSER.equals("edge")){
+			 else if(BROWSER.equals("firefox")){
 				   try {
-					 EdgeOptions options = new EdgeOptions();
+					 //EdgeOptions options = new EdgeOptions();
+					  FirefoxOptions options =new FirefoxOptions();
 					 URI uri= new URI(GRID_URL);
 					 driver=new RemoteWebDriver(uri.toURL(),options);
 					 DriverManager.setDriver(driver);
@@ -83,13 +89,13 @@ public class BaseClass {
 			{
 				 Reporter.log("Open chrome browser in Locally", true);
 				 Reporter.log("The given path is :" +excelPath,true);
-			   driver= new ChromeDriver();
-			   DriverManager.setDriver(driver);
+			     driver= new ChromeDriver();
+			     DriverManager.setDriver(driver);
 			   
 			 }
-			   else if(BROWSER.equals("edge")) {
-				   Reporter.log("Open chrome browser in Locally", true);
-				   driver= new EdgeDriver();
+			   else if(BROWSER.equals("firefox")) {
+				   Reporter.log("Open edge browser in Locally", true);
+				   driver= new FirefoxDriver();
 				   DriverManager.setDriver(driver);
 			   }
 		 
