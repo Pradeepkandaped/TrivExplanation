@@ -11,7 +11,7 @@
         <methods>
           <include name="preCondition"/>
           <include name="postCondition"/>
-          <include name="loginScript" invocation-numbers="6 7"/>
+          <include name="loginScript"/>
         </methods>
       </class> <!-- scripts.OrangehrmLogin -->
     </classes>
