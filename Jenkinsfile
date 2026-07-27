@@ -12,14 +12,14 @@ pipeline {
         stage('Build') {
             steps {
                 // Clean and compile the project
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
                 // Run Selenium + TestNG tests
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
