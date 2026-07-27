@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull latest code from GitHub
-                git 'https://github.com/Pradeepkandaped/TrivExplanation.git'
+                git branch : 'main', url: 'https://github.com/Pradeepkandaped/TrivExplanation.git'
             }
         }
 
